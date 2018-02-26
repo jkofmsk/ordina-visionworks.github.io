@@ -1,23 +1,100 @@
 ---
 layout: default
-title: Team
+title: Ordina VisionWorks
+subtitle: Data is your business compass. Ordina VisionWorks, your data technology partner.
 permalink: /about/
+image: /img/backgrounds/ordina.png
 ---
-<section class="wrapper spotlight alt style1">
+
+<section id="one" class="wrapper spotlight style2">
     <div class="inner">
-        <section class="team">
-            {% for authorEntry in site.data.authors %}
-            {% assign author = authorEntry[1] %}
-            <div class="team-member">
-                {% include team-member-image.html author=author %}
-                <h1 class="team-member-name"><a href="{{ author.permalink | prepend: site.baseurl }}">{{ author.first_name }} {{ author.last_name }}</a></h1>
-                <span class="team-member-title">{{ author.title }}</span>
-                {% if author.title2 %}
-                <span class="team-member-title">{{ author.title2 }}</span>
-                {% endif %}
-                {% include team-member-links.html author=author %}
+        <a href="#" class="image spotlight-image" style="border-radius: inherit;">
+            <img src="/img/visionworks/visionworks-logo.png" alt="" style="border-radius: inherit;">
+        </a>
+
+        <div class="content">
+            <h2 class="major">ABOUT ORDINA VISIONWORKS</h2>
+            <p>
+                Data is the new gold and generates new business thanks to business intelligence. 
+                But, where do you start? At Data Analytics &amp; Data Science from Ordina! 
+                We convert data into insights. 
+                Ordina's business intelligence and data science consultants have experience in the implementation of market leading business intelligence, 
+                big data and analytical platforms and software, both cloud based and on-premise. 
+                Using solutions and business platforms from, among others, Microsoft, Tableau, Cloudera, AWS, Hadoop, R, Python, Qlik, and SAP. 
+                Our experts ensure that data becomes a compass for your business decisions. 
+                With over 150 data professionals, we are the largest company in the Benelux active in the data analytics and science field.
+            </p>
+
+            <a href="https://www.ordina.be/services/bi-analytics/" class="special" target="_blank">Learn
+                more</a>
+        </div>
+    </div>
+</section>
+
+<section id="two" class="wrapper alt spotlight style1">
+    <div class="inner">
+        <div class="content">
+            <div class="features">
+                <article>
+                    <a href="#" class="image article-image">
+                        <img src="/img/contact/tom-francis.jpg" alt="">
+                    </a>
+
+                    <h3 class="major">Tom Francis</h3>
+                    <h5>Business Unit Manager</h5>
+
+                    <ul class="contact">
+                        <li class="fa-phone"><a href="tel:+32473273057">+32 473 27 30 57</a></li>
+                        <li class="fa-envelope"><a href="mailto:tom.francis@ordina.be">tom.francis@ordina.be</a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <a href="#" class="image article-image">
+                        <img src="/img/contact/bart-van-mulders.jpg" alt="">
+                    </a>
+
+                    <h3 class="major">Bart Van Mulders</h3>
+                    <h5>Business Unit Manager</h5>
+
+                    <ul class="contact">
+                        <li class="fa-phone"><a href="tel:+32474891706">+32 474 89 17 06 </a></li>
+                        <li class="fa-envelope"><a href="mailto:bart.vanmulders@ordina.be">bart.vanmulders@ordina.be</a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <a href="#" class="image article-image">
+                        <img src="/img/contact/anthony-coppens.jpg" alt="">
+                    </a>
+
+                    <h3 class="major">Anthony Coppens</h3>
+                    <h5>Resource Manager</h5>
+
+                    <ul class="contact">
+                        <li class="fa-phone"><a href="tel:+32494982110">+32 494 98 21 10</a></li>
+                        <li class="fa-envelope"><a href="mailto:anthony.coppens@ordina.be">anthony.coppens@ordina.be</a>
+                        </li>
+                    </ul>
+                </article>
             </div>
-            {% endfor %}
-        </section>
+    </div>
+</section>
+
+<section id="three" class="wrapper spotlight style3">
+    <div class="inner">
+        <div class="content">
+          <h2 class="major">Our Offices</h2>
+          <h3>Mechelen</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11930.778171031287!2d4.452728774910801!3d51.05055534635598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3e59d34246183%3A0x12ea838e4c02816e!2sOrdina+Belgium+Mechelen!5e0!3m2!1snl!2sus!4v1447107404641"
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <h3>Gent</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20080.011590997965!2d3.716232738620757!3d51.0161220795574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c373f55ab9ae2b%3A0xa60678995a1982e2!2sKAA+Gent+Stadium!5e0!3m2!1sen!2sbe!4v1519639535513" 
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <h3>Lummen</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20088.542775538146!2d5.209591438620404!3d50.996418379554335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c13b46ee07bc95%3A0xcfc1415ceed79459!2sKlaverbladstraat+11%2C+3560+Lummen!5e0!3m2!1sen!2sbe!4v1519639603701" 
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        </div>
     </div>
 </section>
